@@ -1,0 +1,25 @@
+.floting{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    align-items: center;
+    padding:  0px 28px 0px 0px;
+    height: 4.5rem;
+    width: 10rem;
+    position: absolute;
+    box-shadow: var(--box_shadow);
+    color: black !important;
+    img{
+        width: 50px !important;
+        margin-left: 15px;
+    }
+    span{
+        text-align: center;
+    }
+    
+}

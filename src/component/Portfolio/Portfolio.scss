@@ -1,0 +1,35 @@
+.portfolio{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .p-one{
+        font-size: 2rem;
+        color: var(--blach);
+        font-weight:bold;
+    }
+    .p-two{
+        font-size: 2rem;
+        color: var(--orange);
+        font-weight:bold;
+    }
+    .p-right{
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 40px;
+
+    }
+
+}
+
+//////////////////////////////////////////////////
+@media (max-width:445px) {
+    .portfolio{
+        .p-one, .p-two{
+            font-size: 30px !important;
+        }
+    }
+}
