@@ -1,0 +1,60 @@
+.experince{
+    text-transform: capitalize;
+    position: relative;
+    z-index: 45;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 70px;
+    padding-top: 1rem;
+    .more{
+        background-image: linear-gradient(to bottom, #87e6fd 0%, #c65cff 100%);
+        width: 5rem;
+        height: 5rem;
+        z-index: -1;
+        box-shadow: var(--box_shadow);
+        border-radius: 100%;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -ms-border-radius: 100%;
+        -o-border-radius: 100%;
+        position: relative;
+    }
+.skil{
+    position: absolute;
+    background-color:white;
+    top: 50%;
+    left: 50%;
+    font-size: 19px;
+    width: 4rem;
+    height: 4rem;
+    color: black;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    text-align: center;
+    line-height: 3.5;
+    transform:translate(-50%,-50%) ;
+    -webkit-transform:translate(-50%,-50%) ;
+    -moz-transform:translate(-50%,-50%) ;
+    -ms-transform:translate(-50%,-50%) ;
+    -o-transform:translate(-50%,-50%) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+}
+@media (max-width:460px) {
+    .experince{
+        gap: 30px;
+    }
+}
+@media (max-width:386px){
+    .experince{
+    gap: 10px;
+
+    }
+}

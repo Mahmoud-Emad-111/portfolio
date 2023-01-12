@@ -1,0 +1,30 @@
+.portfolio {
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.portfolio .p-one {
+  font-size: 2rem;
+  color: var(--blach);
+  font-weight: bold;
+}
+.portfolio .p-two {
+  font-size: 2rem;
+  color: var(--orange);
+  font-weight: bold;
+}
+.portfolio .p-right {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+@media (max-width: 445px) {
+  .portfolio .p-one, .portfolio .p-two {
+    font-size: 30px !important;
+  }
+}/*# sourceMappingURL=Portfolio.css.map */
