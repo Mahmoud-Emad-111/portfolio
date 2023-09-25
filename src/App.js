@@ -10,7 +10,7 @@ import Contact from './component/Contact/Contact';
 import Footer from './component/Footer/Footer';
 import { useState } from 'react';
 function App() {
-  const [mood,Setmood]=useState(false);
+  const [mood,Setmood]=useState(true);
   const change_mood=()=>{
     Setmood(!mood)
     
