@@ -20,12 +20,12 @@ const Portfolio=()=>{
                     <Box img={AwfarApp} head="Awfar App" desc="" link="https://play.google.com/store/apps/details?id=com.awfarcar.client"/> 
                     <Box img={Awfar} head="Awfar" desc="the service using an electronic application that will help you and connect you with drivers to finally complete the process of paying the move with ease." link="https://awfarcar.com/"/> 
                     <Box img={Eduiline} head="Eduline" desc="Educational advice for educational content. Beautifully designed and responsive." link="https://pasmaacademie.com/ar"/> 
+                    <Box img={albayan} head="Al-Bayan Foundation for Academic Services" desc="Al-Bayan Foundation for Academic Services" link="https://albayanres.com/"/>
                     <Box img={nike} head="nike store" desc="An online store for displaying and selling shoes. Beautifully designed and responsive." link="https://nike-store-c3c4.web.app/"/> 
                     {/* <Box img={dashboard} head="ecommbers (Not completed)" link="https://dashboard-app-73c0f.web.app/" desc="Dashboard Multi-page with a beautiful design, responsive and easy to use "/> */}
                     <Box img={mix} head="MIX (Not completed)" link="https://mix-dun.vercel.app/" desc="Online store for selling products. With a beautiful and responsive design no-backend "/>
                     <Box img={dashboard} head="Dashboard" link="https://dashboard-app-73c0f.web.app/" desc="Dashboard Multi-page with a beautiful design, responsive and easy to use "/>
                     <Box img={ecommerce} head="Store (Not completed)" desc="Online store for selling products. With a beautiful and responsive design" link="https://store-5be53.web.app"/>
-                    <Box img={albayan} head="Al-Bayan Foundation for Academic Services" desc="Al-Bayan Foundation for Academic Services" link="https://albayanres.com/"/>
                 </div>
         </div>
     )
