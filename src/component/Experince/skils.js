@@ -23,12 +23,17 @@ const Skils=()=>{
                 {circle_skil('css 3')}
                 {circle_skil('js')}
                 {circle_skil('react js')}
+                {circle_skil('Next js')}
                 {circle_skil('json')}
                 {circle_skil('js oop')}
                 {circle_skil('scss')}
                 {circle_skil('php')}
                 {circle_skil('my-sql')}
                 {circle_skil('laravel')}
+                {circle_skil('Api')}
+                {circle_skil('Solid')}
+                {circle_skil('CCNA')}
+                {circle_skil('Redux')}
 
 
 

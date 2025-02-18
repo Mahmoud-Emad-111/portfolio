@@ -4,7 +4,7 @@ import imogy_1 from "./../../img/glasses.png";
 import imogy_2 from "./../../img/heartemoji.png";
 import imogy_3 from "./../../img/humble.png";
 import Cart from "../Cart/Cart";
-import cv from "./../../img/cv.pdf";
+import cv from "./../../img/Mahmoud.pdf";
 import { motion } from "framer-motion";
 const Services=()=>{
     const transition={duration:2, type:'spring'}

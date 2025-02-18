@@ -11,7 +11,7 @@ const Footer=()=>{
                 <div className="f-coal">
 
                     <span>mahmoud.devops@gmail.com</span>
-                    <span>01220458853</span>
+                    <span>01070273601</span>
                 </div>
                 <div className="f-icone">
                 

@@ -11,11 +11,11 @@ const Nav_bar=(props)=>{
             </div>
             <div className="n-right">
                 <ul>
-                    <li>home</li>
+                    {/* <li>home</li>
                     <li>services</li>
                     <li>Skils</li>
                     <li>portfolio</li>
-                    <li>testimonials</li>
+                    <li>testimonials</li> */}
                 </ul>
                 <button>
                     contact us
