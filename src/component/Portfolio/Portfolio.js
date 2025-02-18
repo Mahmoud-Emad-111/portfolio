@@ -12,7 +12,7 @@ import AwfarApp from '../../img/Awfar App.jpg';
 import Die from '../../img/Die.png';
 const Portfolio=()=>{
     return(
-        <div className="portfolio">
+         <div className="portfolio">
                 <span className="p-one">recent projects</span>
                 <span className="p-two">portfolio</span>
                 <div className="p-right">

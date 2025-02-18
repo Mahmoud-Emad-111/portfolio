@@ -9,7 +9,6 @@ import crown from './../../img/crown.png';
 import Floting from "../FloatingDic/FlotingDIV";
 import like from "./../../img/thumbup.png";
 import imogy from "./../../img/glassesimoji.png";
-import img_1 from './../../img/3.png';
 const Intro=()=>{
     return(
         <div className="Intro">
